@@ -1,0 +1,449 @@
+*, *:before, *:after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+a{
+    color: black;
+}
+
+.wrapper {
+
+}
+
+.container {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.first h1 {
+    text-align: center;
+    margin-top: 120px;
+    letter-spacing: 25px;
+    font-size: 80px;
+}
+
+.content {
+    padding: 0px 0px 0px 0px;
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.content_text {
+    font-size: 18px;
+}
+
+.first_img img {
+    margin-top: 40px;
+    max-width: 48%;
+    margin-bottom: -5px;
+}
+
+.marvel_img img {
+    float: left;
+}
+
+.dc_img {
+    text-align: right;
+}
+
+.first_link a {
+    margin-top: 10px;
+    color: black;
+    font-size: 45px;
+    letter-spacing: 5px;
+}
+
+.link_marvel {
+    width: 48%;
+    float: left;
+}
+
+.link_dc {
+    width: 48%;
+    float: right;
+}
+
+.second h1 {
+    text-align: center;
+    letter-spacing: 25px;
+    font-size: 80px;
+    margin-top: 125px;
+}
+
+.choice {
+    margin-top: 40px;
+}
+
+.choice img {
+    max-width: 32%;
+    float: left;
+    margin-left: 1%;
+    border: 1px solid black;
+}
+
+.new img {
+    margin-left: 0;
+}
+
+.choice_text {
+    display: none;
+}
+
+.second_text span {
+    font-size: 17px;
+    letter-spacing: 3px;
+}
+
+.second_text p {
+    letter-spacing: 1px;
+    text-decoration: underline;
+    font-size: 15px;
+}
+
+.new_text {
+    width: 32%;
+    float: left;
+    margin-left: 0%;
+}
+
+.exclusive_text {
+    width: 32%;
+    float: left;
+    margin-left: 1%;
+}
+
+.popular_text {
+    width: 32%;
+    float: left;
+    margin-left: 1%;
+}
+
+.third {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.third_text h2 {
+    font-size: 3vw;
+    letter-spacing: 0.5vw;
+}
+
+.third_text {
+    margin-top: 40px;
+    float: left;
+    max-width: 48%;
+    text-align: justify;
+}
+
+.third_text p {
+    margin-top: 1.5vw;
+    margin-bottom: 1.5vw;
+    letter-spacing: 0.2vw;
+    font-size: 1.4vw;
+}
+
+.third_text a {
+    letter-spacing: 0.5vw;
+    font-size: 1.4vw;
+    text-decoration: underline;
+    color: black;
+}
+
+.third_img {
+    text-align: right;
+}
+
+.third_img img {
+    margin-top: 40px;
+    padding-top: 1vh;
+    max-width: 48%;
+}
+
+.hide_img{
+    display: none;
+}
+
+@media (max-width: 1418px) {
+    .second h1 {
+        letter-spacing: 20px;
+        font-size: 70px;
+    }
+}
+
+@media (max-width: 1299px) {
+    .first h1 {
+        margin-top: 120px;
+        letter-spacing: 12px;
+        font-size: 65px;
+    }
+
+    .first_link a {
+        font-size: 35px;
+        letter-spacing: 7px;
+    }
+
+    .second h1 {
+        margin-top: 100px;
+        letter-spacing: 12px;
+        font-size: 65px;
+    }
+
+    .second_img {
+        margin-top: 60px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .links_choice a {
+        font-size: 30px;
+        letter-spacing: 5px;
+    }
+
+    .first h1 {
+        margin-top: 90px;
+        font-size: 50px;
+        letter-spacing: 10px;
+    }
+
+    .second h1 {
+        margin-top: 80px;
+        font-size: 50px;
+        letter-spacing: 10px;
+    }
+
+    .second_img {
+        margin-top: 50px;
+    }
+
+    body.lock {
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 1099px) {
+    .first_link a {
+        font-size: 25px;
+        letter-spacing: 3px;
+    }
+
+    .second_text span {
+        font-size: 13px;
+    }
+
+    .second_text p {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 950px) {
+    .first_img img {
+        max-width: 100%;
+    }
+
+    .first_img a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .first_link {
+        display: none;
+    }
+}
+
+@media (max-width: 770px) {
+    .third_text h2 {
+        font-size: 2.8vw;
+    }
+
+    .second_text {
+        display: none;
+    }
+
+    .choice img {
+        max-width: 100%;
+        margin-left: 0;
+    }
+
+    .choice_text {
+        display: block;
+        padding: 0;
+        margin-left: 0;
+        margin-bottom: 2%;
+        letter-spacing: 5px;
+    }
+
+    .second_text span {
+        font-size: 9px;
+    }
+
+    .first h1 {
+        margin-top: 75px;
+        letter-spacing: 7px;
+        font-size: 35px;
+    }
+
+    .first_img {
+        margin-top: -15px;
+    }
+
+    .first_link a {
+        font-size: 20px;
+        letter-spacing: 3px;
+    }
+
+    .second h1 {
+        margin-top: 50px;
+        letter-spacing: 7px;
+        font-size: 35px;
+    }
+
+    .second_img {
+        margin-top: 35px;
+    }
+
+    .third_text {
+        max-width: 100%;
+        margin-top: 40px;
+        float: left;
+    }
+
+    .third_text p {
+        font-size: 25px;
+    }
+
+    .third_img {
+        display: none;
+    }
+    .hide_img{
+        display: block;
+        max-width: 100%;
+    }
+
+    .third_text h2 {
+        font-size: 35px;
+    }
+
+    .third_text a {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 560px) {
+    .third_text p {
+        margin-bottom: 1vw;
+    }
+
+    .second_text span {
+        font-size: 7px;
+        letter-spacing: 1px;
+    }
+
+    .second_text p {
+        font-size: 4px;
+        letter-spacing: 1px;
+    }
+
+    .first h1 {
+        margin-top: 60px;
+        letter-spacing: 5px;
+        font-size: 30px;
+    }
+
+    .second h1 {
+        margin-top: 37px;
+        letter-spacing: 5px;
+        font-size: 30px;
+    }
+
+    .choice {
+        margin-top: 20px;
+    }
+
+    .choice_text p {
+        font-size: 15px;
+    }
+
+    .first_img img {
+        margin-top: 25px;
+    }
+
+    .first_link a {
+        font-size: 10px;
+        letter-spacing: 1px;
+    }
+
+    .first_img img {
+        margin-bottom: -12px;
+    }
+}
+
+@media (max-width: 530px) {
+    .choice_text span {
+        font-size: 2.8vw;
+        letter-spacing: 0.5vw;
+    }
+    .choice_text p {
+        font-size: 2.7vw;
+        letter-spacing: 0.3vw;
+    }
+}
+
+@media (max-width: 320px) {
+    .third_text p {
+        margin-bottom: -2vw;
+    }
+
+    .second_text span {
+        font-size: 5px;
+        letter-spacing: 1px;
+    }
+
+    .second_text p {
+        font-size: 3px;
+        letter-spacing: 1px;
+    }
+
+    .first h1 {
+        margin-top: 55px;
+        letter-spacing: 5px;
+        font-size: 15px;
+    }
+
+    .second h1 {
+        margin-top: 25px;
+        letter-spacing: 5px;
+        font-size: 15px;
+    }
+
+    .second_img {
+        margin-top: 10px;
+    }
+
+    .first_img img {
+        margin-top: 20px;
+    }
+
+    .first_link a {
+        font-size: 10px;
+        letter-spacing: 1px;
+    }
+
+    .first_img img {
+        margin-bottom: -12px;
+    }
+    .third_text p{
+        font-size: 15px;
+    }
+    .third_text a{
+        font-size: 12px;
+    }
+}
